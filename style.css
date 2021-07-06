@@ -1,6 +1,29 @@
 body {
   font-family: "Oswald", sans-serif;
 }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
 h1 {
   font-size: 50px;
   margin-top: 20%;
@@ -56,4 +79,15 @@ p {
 .para {
   text-align: center;
   padding-left: 20%;
+}
+
+footer {
+  background-color: indigo;
+  padding-bottom: 60px;
+}
+footer h1 {
+  text-align: center;
+}
+footer h3 {
+  text-align: center;
 }
